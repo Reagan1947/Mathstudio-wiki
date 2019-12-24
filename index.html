@@ -141,6 +141,8 @@ Basic styles used before we boot up the parsing engine
 
 <p>This <a class="tc-tiddlylink-external" href="https://tiddlywiki.com" rel="noopener noreferrer" target="_blank">TiddlyWiki</a> contains the following tiddlers:</p><p><ul>
 
+<li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/manager</li>
+
 <li>$:/core</li>
 
 <li>$:/GitHub/Filename</li>
@@ -172,6 +174,8 @@ Basic styles used before we boot up the parsing engine
 <li>$:/state/tab-1749438307</li>
 
 <li>$:/state/tab-2065006209</li>
+
+<li>$:/state/tab/moresidebar-1850697562</li>
 
 <li>$:/state/tab/sidebar--595412856</li>
 
@@ -395,6 +399,9 @@ Basic styles used before we boot up the parsing engine
 <!--~~ Ordinary tiddlers ~~-->
 
 <div id="storeArea" style="display:none;">
+<div created="20191224015139793" modified="20191224015142613" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/manager">
+<pre>hide</pre>
+</div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="" description="TiddlyWiki5 core" list="readme" plugin-priority="0" plugin-type="plugin" title="$:/core" type="application/json" version="5.1.21">
 <pre>{
     &quot;tiddlers&quot;: {
@@ -13270,16 +13277,19 @@ Basic styles used before we boot up the parsing engine
 <div created="20191224013130485" modified="20191224013130485" title="$:/state/tab-1342078386">
 <pre>$:/core/ui/ControlPanel/Plugins/Add/Languages</pre>
 </div>
-<div created="20191224012902759" modified="20191224013908949" title="$:/state/tab-1749438307">
-<pre>$:/core/ui/ControlPanel/Saving</pre>
+<div created="20191224012902759" modified="20191224015442072" title="$:/state/tab-1749438307">
+<pre>$:/core/ui/ControlPanel/Appearance</pre>
 </div>
 <div created="20191224012904559" modified="20191224012904559" title="$:/state/tab-2065006209">
 <pre>$:/core/ui/ControlPanel/Saving/GitHub</pre>
 </div>
-<div created="20191224014827940" modified="20191224014932249" title="$:/state/tab/sidebar--595412856">
-<pre>Contens</pre>
+<div created="20191224015250373" modified="20191224015250373" title="$:/state/tab/moresidebar-1850697562">
+<pre>$:/core/ui/MoreSideBar/Plugins</pre>
 </div>
-<div list="测试 GettingStarted" title="$:/StoryList">
+<div created="20191224014827940" modified="20191224015445750" title="$:/state/tab/sidebar--595412856">
+<pre>$:/core/ui/SideBar/Recent</pre>
+</div>
+<div created="20191224015259988" list="Contens $:/ControlPanel 测试 GettingStarted" modified="20191224015447510" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -14220,10 +14230,8 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 <div created="20191224014900115" modified="20191224014927249" tags="测试" title="测试">
 <pre>这是一条测试目录</pre>
 </div>
-<div created="20191224014753035" modified="20191224014821817" tags="$:/tags/SideBar" title="Contens">
-<pre>&lt;div class=&quot;tc-table-of-contents&quot;&gt;
-&lt;&lt;toc-selective-expandable 'Contents' sort[title]&gt;&gt;
-&lt;/div&gt;</pre>
+<div created="20191224014753035" modified="20191224015454133" tags="$:/tags/SideBar" title="Contens">
+<pre>&lt;$list filter={{$:/core/Filters/AllTiddlers!!filter}} template=&quot;$:/core/ui/ListItemTemplate&quot;/&gt;</pre>
 </div>
 
 </div>
